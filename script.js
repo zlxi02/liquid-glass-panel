@@ -66,7 +66,7 @@ sendButton.addEventListener('click', (e) => {
     const issueTitle = issueTitleInput.value.trim() || 'New Issue title';
     
     // Update toast with issue title
-    toastIssueName.textContent = `SAL-8 – ${issueTitle}`;
+    toastIssueName.textContent = issueTitle;
     
     // Close the modal
     modalOverlay.classList.remove('active');

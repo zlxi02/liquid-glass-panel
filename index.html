@@ -37,8 +37,8 @@
                 
                 <!-- Unified input container -->
                 <div class="unified-input-container">
-                    <input type="text" id="issue-title" placeholder="Issue title" class="title-input">
-                    <textarea id="issue-description" rows="6" placeholder="Add description..." class="description-input"></textarea>
+                    <input type="text" id="issue-title" placeholder="Issue title" class="title-input" autocomplete="off">
+                    <textarea id="issue-description" rows="6" placeholder="Add description..." class="description-input" autocomplete="off"></textarea>
                     <div class="divider-line"></div>
                     <button class="send-button">Create issue</button>
                 </div>
@@ -64,10 +64,7 @@
             </div>
             
             <div class="toast-issue-info">
-                <svg class="toast-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.5"/>
-                </svg>
-                <span id="toastIssueName">SAL-8 – New Issue title</span>
+                <span id="toastIssueName">New Issue title</span>
             </div>
             
             <a href="#" class="toast-link">View issue</a>
