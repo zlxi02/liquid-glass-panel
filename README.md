@@ -165,6 +165,7 @@ linear-glass-panel/
 ├── script.js           # Modal and toast functionality
 ├── package.json        # Dependencies and scripts
 ├── .gitignore         # Git ignore rules
+├── LICENSE            # MIT License
 └── README.md          # This file
 ```
 
